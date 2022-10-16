@@ -9,11 +9,52 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center; */
+  /* justify-content: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.left-challenger {
+  display: inline-block;
+  margin-top: auto;
+  text-align: left;
+}
 
+.right-challenger {
+  display: inline-block;
+  text-align: right;
+  margin-top: auto;
+}
+
+.versus {
+  display: inline-block;
+  /* margin-top: auto; */
+  /* margin-bottom: auto; */
+  align-items: center;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  /* margin: 0 auto; */
+  width: 100%;
+  /* max-width: 800px; */
+}
+
+.leftChallengerText{
+  color: black;
+  position: absolute;
+  top: 600px;
+  left: 10px;
+}
+
+.rightChallengerText {
+  color: black;
+  position: absolute;
+  top: 600px;
+  right: 10px;
+}
 
